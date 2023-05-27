@@ -8,7 +8,7 @@ import LoadMoreBtn from './components/LoadMoreBtn';
 
 const inputText = document.querySelector('input');
 const form = document.querySelector('form');
-const btn = document.querySelector('button');
+// const btn = document.querySelector('button');
 const gallery = document.querySelector('.gallery');
 
 const lightbox = new SimpleLightbox('.gallery a', {
