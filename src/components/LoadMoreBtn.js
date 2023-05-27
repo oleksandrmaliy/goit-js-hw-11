@@ -1,4 +1,3 @@
-import simpleLightbox from "simplelightbox";
 
 export default class LoadMoreBtn{
     constructor({ selector, isHidden = false }) {

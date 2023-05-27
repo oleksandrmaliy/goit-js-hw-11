@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: rgba(37, 42, 42, 0.455);
+  background-color: lightblue;
 }
 
 p {
@@ -14,7 +14,6 @@ p {
 
 img {
   display: block;
-
 }
 
 .container {
@@ -32,7 +31,7 @@ img {
 }
 
 .search-form {
-  background-color:rgb(91, 54, 13);
+  background-color: transparent;
   position: fixed;
   top: 0;
   left: 0;
@@ -54,7 +53,7 @@ img {
   text-decoration: none;
 }
 
-.load-more{
+.load-more {
   text-align: center;
   display: block;
   align-items: center;
@@ -66,50 +65,32 @@ img {
   border-radius: 10%;
 }
 
-.load-more.hidden{
+.load-more.hidden {
   display: none;
 }
 
-button:disabled{
+button:disabled {
   cursor: not-allowed;
-  background-color: #c1c1c1; 
-
+  background-color: #c1c1c1;
 }
 
-
-
-
-
-
 .btn-up {
-  /* фиксированное позиционирование */
   position: fixed;
-  /* цвет фона */
   background-color: #673ab7;
-  /* расстояние от правого края окна браузера */
   right: 20px;
-  /* расстояние от нижнего края окна браузера */
   bottom: 0;
-  /* скругление верхнего левого угла */
   border-top-left-radius: 8px;
-  /* скругление верхнего правого угла */
   border-top-right-radius: 8px;
-  /* вид курсора */
   cursor: pointer;
-  /* отображение элемента как flex */
   display: flex;
-  /* выравниваем элементы внутри элемента по центру вдоль поперечной оси */
   align-items: center;
-  /* выравниваем элементы внутри элемента по центру вдоль главной оси */
   justify-content: center;
-  /* ширина элемента */
   width: 60px;
-  /* высота элемента */
   height: 50px;
 }
 
 .btn-up::before {
-  content: "";
+  content: '';
   width: 40px;
   height: 40px;
   background: transparent no-repeat center center;
@@ -124,6 +105,5 @@ button:disabled{
 @media (hover: hover) and (pointer: fine) {
   .btn-up:hover {
     background-color: #512da8;
-    /* цвет заднего фона при наведении */
   }
 }
